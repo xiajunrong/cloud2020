@@ -32,7 +32,10 @@ public class PaymentController {
         if (payment != null) {
             return new CommonResult(200, "查询数据库成功", payment);
         } else {
+
             return new CommonResult(444, "没有记录" + id, null);
         }
+
+
     }
 }
