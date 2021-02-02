@@ -60,4 +60,9 @@ public class PaymentController {
         }
         return this.discoveryClient;
     }
+
+    @GetMapping(value = "/payment/lb")
+    public void lb() {
+        System.out.println("我的端口号是===========" + serverport);
+    }
 }

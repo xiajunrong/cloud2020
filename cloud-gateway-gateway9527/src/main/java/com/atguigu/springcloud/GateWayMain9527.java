@@ -1,15 +1,14 @@
 package com.atguigu.springcloud;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableHystrixDashboard
-public class HystrixDashboardMain9001 {
+@EnableEurekaClient
+public class GateWayMain9527 {
     public static void main(String[] args) {
-        SpringApplication.run(HystrixDashboardMain9001.class, args);
+        SpringApplication.run(GateWayMain9527.class, args);
     }
-
-
 }
